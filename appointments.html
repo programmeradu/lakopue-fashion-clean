@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAKOPUÉ | Appointments</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="lakopue_icon_transparent.png" type="image/png">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-logo">
+            <img src="lakopue_full_logo_cropped.png" alt="LAKOPUÉ">
+        </div>
+        <div class="loader-tagline">Beyond Elegance</div>
+        <div class="loader-line"></div>
+    </div>
+
+    <!-- Shared Navigation -->
+    <div data-include="nav"></div>
+
+    <!-- Appointments Hero -->
+    <section class="appt-hero">
+        <div class="appt-hero-inner">
+            <p class="section-eyebrow">Services</p>
+            <h1 class="appt-hero-title">Appointments</h1>
+            <p class="appt-hero-subtitle">
+                Request a private appointment with a client advisor. From couture fittings to curated selections,
+                each visit is shaped around you.
+            </p>
+        </div>
+    </section>
+
+    <section class="appt-section">
+        <div class="appt-shell">
+            <div class="appt-card">
+                <h2 class="appt-title">Request an appointment</h2>
+                <p class="appt-note">
+                    Submit your request and our team will confirm availability. For urgent requests, please contact your preferred boutique directly.
+                </p>
+
+                <form class="appt-form" id="appointmentForm">
+                    <div class="appt-grid">
+                        <label class="appt-field">
+                            <span>Full name</span>
+                            <input type="text" name="name" required autocomplete="name" />
+                        </label>
+
+                        <label class="appt-field">
+                            <span>Email</span>
+                            <input type="email" name="email" required autocomplete="email" />
+                        </label>
+
+                        <label class="appt-field">
+                            <span>Phone</span>
+                            <input type="tel" name="phone" autocomplete="tel" />
+                        </label>
+
+                        <label class="appt-field">
+                            <span>Service</span>
+                            <select name="service" required>
+                                <option value="" selected disabled>Select</option>
+                                <option value="haute-couture">Haute Couture</option>
+                                <option value="ready-to-wear">Ready-to-Wear</option>
+                                <option value="jewelry">Jewelry</option>
+                                <option value="accessories">Accessories</option>
+                            </select>
+                        </label>
+
+                        <label class="appt-field">
+                            <span>Preferred boutique</span>
+                            <select name="boutique" required>
+                                <option value="" selected disabled>Select</option>
+                                <option value="accra-osu">Accra · Osu Flagship</option>
+                                <option value="accra-east-legon">Accra · East Legon</option>
+                                <option value="kumasi-city-centre">Kumasi · City Centre</option>
+                            </select>
+                        </label>
+
+                        <label class="appt-field">
+                            <span>Preferred date</span>
+                            <input type="date" name="date" required />
+                        </label>
+
+                        <label class="appt-field">
+                            <span>Preferred time</span>
+                            <input type="time" name="time" required />
+                        </label>
+
+                        <label class="appt-field appt-field--full">
+                            <span>Message</span>
+                            <textarea name="message" rows="5" placeholder="Tell us about your request (occasion, sizing, pieces of interest)."></textarea>
+                        </label>
+                    </div>
+
+                    <div class="appt-actions">
+                        <button type="submit" class="appt-submit">Send request</button>
+                        <p class="appt-privacy">By submitting, you agree we may contact you about your appointment.</p>
+                    </div>
+
+                    <p class="appt-success" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+
+            <aside class="appt-aside">
+                <div class="appt-aside-card">
+                    <p class="appt-aside-kicker">Prefer in person?</p>
+                    <h3 class="appt-aside-title">Find a Boutique</h3>
+                    <p class="appt-aside-text">Explore our boutiques worldwide and contact a location directly.</p>
+                    <a class="appt-aside-link" href="boutiques.html">Browse boutiques</a>
+                </div>
+                <div class="appt-aside-card">
+                    <p class="appt-aside-kicker">Couture</p>
+                    <h3 class="appt-aside-title">Haute Couture requests</h3>
+                    <p class="appt-aside-text">Couture appointments may require additional lead time for fittings and approvals.</p>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Shared Footer -->
+    <div data-include="footer"></div>
+
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

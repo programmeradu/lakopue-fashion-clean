@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAKOPUÉ | Shows & Media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="lakopue_icon_transparent.png" type="image/png">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-logo">
+            <img src="lakopue_full_logo_cropped.png" alt="LAKOPUÉ">
+        </div>
+        <div class="loader-tagline">Beyond Elegance</div>
+        <div class="loader-line"></div>
+    </div>
+
+    <!-- Shared Navigation -->
+    <div data-include="nav"></div>
+
+    <!-- Media Hero -->
+    <section class="media-hero">
+        <div class="media-hero-inner">
+            <p class="section-eyebrow">Shows &amp; Media</p>
+            <h1 class="media-hero-title">Runway in Motion</h1>
+            <p class="media-hero-subtitle">
+                A curated archive of LAKOPUÉ runway, campaigns and films, capturing the Maison in movement.
+            </p>
+        </div>
+    </section>
+
+    <!-- Media Grid -->
+    <section class="media-section" id="media">
+        <div class="section-header">
+            <p class="section-eyebrow">Watch</p>
+            <h2 class="section-title">Shows &amp; Films</h2>
+        </div>
+
+        <div class="media-filters" aria-label="Filter media">
+            <button class="media-filter active" data-filter="all">All</button>
+            <button class="media-filter" data-filter="haute-couture">Haute Couture</button>
+            <button class="media-filter" data-filter="ready-to-wear">Ready-to-Wear</button>
+            <button class="media-filter" data-filter="campaign">Campaigns</button>
+        </div>
+
+        <div class="media-grid">
+            <article class="media-card" data-category="haute-couture" data-video-url="https://youtu.be/cPTIVqReIhw?si=mlRrRebAGemIGFot">
+                <div class="media-thumb">
+                    <img src="" alt="" class="media-thumb-img">
+                    <span class="media-pill">Haute Couture</span>
+                    <span class="media-play-icon" aria-hidden="true"></span>
+                </div>
+                <div class="media-card-body">
+                    <h3 class="media-card-title"></h3>
+                    <p class="media-card-meta">Accra Runway — Spring–Summer 2026</p>
+                    <a href="show-haute-couture-ss26.html" class="media-card-link">View looks</a>
+                </div>
+            </article>
+
+            <article class="media-card" data-category="haute-couture" data-video-url="https://youtu.be/RPIrS9hy1ok?si=vBBs5piAdnDAgKym">
+                <div class="media-thumb">
+                    <img src="" alt="" class="media-thumb-img">
+                    <span class="media-pill">Haute Couture</span>
+                    <span class="media-play-icon" aria-hidden="true"></span>
+                </div>
+                <div class="media-card-body">
+                    <h3 class="media-card-title"></h3>
+                    <p class="media-card-meta">Accra Runway — Fall–Winter</p>
+                </div>
+            </article>
+
+            <article class="media-card" data-category="ready-to-wear" data-video-url="https://youtu.be/dtWRIsHpzgw?si=3SYQi74rOORX0BLJ">
+                <div class="media-thumb">
+                    <img src="" alt="" class="media-thumb-img">
+                    <span class="media-pill">Ready-to-Wear</span>
+                    <span class="media-play-icon" aria-hidden="true"></span>
+                </div>
+                <div class="media-card-body">
+                    <h3 class="media-card-title"></h3>
+                    <p class="media-card-meta">Accra — Ready-to-Wear</p>
+                </div>
+            </article>
+
+            <article class="media-card" data-category="campaign" data-video-url="https://youtu.be/rcY66Mx7wU8?si=dhiICpkuuPWJGYr8">
+                <div class="media-thumb">
+                    <img src="" alt="" class="media-thumb-img">
+                    <span class="media-pill">Campaign</span>
+                    <span class="media-play-icon" aria-hidden="true"></span>
+                </div>
+                <div class="media-card-body">
+                    <h3 class="media-card-title"></h3>
+                    <p class="media-card-meta">Global Campaign Film</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Shared Footer -->
+    <div data-include="footer"></div>
+
+    <!-- Media Modal -->
+    <div class="media-modal" aria-hidden="true">
+        <div class="media-modal-backdrop"></div>
+        <div class="media-modal-dialog" role="dialog" aria-modal="true" aria-label="Media player">
+            <button class="media-modal-close" aria-label="Close media">&times;</button>
+            <div class="media-modal-body">
+                <div class="media-modal-video-wrapper">
+                    <iframe class="media-modal-iframe" src="" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="media-modal-meta">
+                    <h3 class="media-modal-title"></h3>
+                    <p class="media-modal-details"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

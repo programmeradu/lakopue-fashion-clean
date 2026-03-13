@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAKOPUÉ | Craftsmanship</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="lakopue_icon_transparent.png" type="image/png">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-logo">
+            <img src="lakopue_full_logo_cropped.png" alt="LAKOPUÉ">
+        </div>
+        <div class="loader-tagline">Beyond Elegance</div>
+        <div class="loader-line"></div>
+    </div>
+
+    <!-- Shared Navigation -->
+    <div data-include="nav"></div>
+
+    <!-- Craft Hero -->
+    <section class="craft-hero">
+        <img class="craft-hero-bg" src="https://images.unsplash.com/photo-1520975958225-4310cd38d5c2?w=2000&q=80" alt="Atelier craftsmanship">
+        <div class="craft-hero-overlay"></div>
+        <div class="craft-hero-inner">
+            <p class="section-eyebrow">Maison</p>
+            <h1 class="craft-hero-title">Craftsmanship</h1>
+            <p class="craft-hero-subtitle">
+                In the ateliers, time becomes a material. Every seam, every bead, every cut is an act of precision —
+                transforming silhouette into memory.
+            </p>
+            <a class="craft-hero-cta" href="#atelier">Enter the Atelier</a>
+        </div>
+    </section>
+
+    <!-- Atelier Chapters -->
+    <section class="craft-section" id="atelier">
+        <div class="section-header">
+            <p class="section-eyebrow">The Making</p>
+            <h2 class="section-title">Inside the Ateliers</h2>
+        </div>
+
+        <div class="craft-chapters">
+            <article class="craft-chapter">
+                <div class="craft-chapter-media">
+                    <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=1200&q=80" alt="Pattern cutting and drape">
+                </div>
+                <div class="craft-chapter-content">
+                    <p class="craft-chapter-kicker">Chapter I</p>
+                    <h3 class="craft-chapter-title">Pattern &amp; Drape</h3>
+                    <p class="craft-chapter-text">
+                        Each piece begins as a study of proportion. Patterns are sculpted in paper, then refined directly on the form —
+                        balancing structure and fluidity until the silhouette feels inevitable.
+                    </p>
+                </div>
+            </article>
+
+            <article class="craft-chapter reverse">
+                <div class="craft-chapter-media">
+                    <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=1200&q=80" alt="Hand stitching">
+                </div>
+                <div class="craft-chapter-content">
+                    <p class="craft-chapter-kicker">Chapter II</p>
+                    <h3 class="craft-chapter-title">Handwork &amp; Finish</h3>
+                    <p class="craft-chapter-text">
+                        The invisible details are what make couture feel effortless. Hand stitching, internal supports, and tailored linings
+                        ensure each garment moves with the body while holding its intended architecture.
+                    </p>
+                </div>
+            </article>
+
+            <article class="craft-chapter">
+                <div class="craft-chapter-media">
+                    <img src="https://images.unsplash.com/photo-1520975940742-4e4a8d746ff9?w=1200&q=80" alt="Embroidery detail">
+                </div>
+                <div class="craft-chapter-content">
+                    <p class="craft-chapter-kicker">Chapter III</p>
+                    <h3 class="craft-chapter-title">Embroidery &amp; Light</h3>
+                    <p class="craft-chapter-text">
+                        Beads and metalwork are placed to catch light like jewelry. Our signature motifs are built in layers —
+                        from sketch to sample to hours of embroidery, finished by hand for depth and precision.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Detail Gallery -->
+    <section class="craft-details">
+        <div class="section-header">
+            <p class="section-eyebrow">Details</p>
+            <h2 class="section-title">Codes of the Maison</h2>
+        </div>
+
+        <div class="craft-detail-grid">
+            <figure class="craft-detail" data-caption="Keyhole motif · polished metalwork">
+                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1100&q=80" alt="Keyhole motif">
+            </figure>
+            <figure class="craft-detail" data-caption="Hand embroidery · crystal and thread">
+                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1100&q=80" alt="Embroidery detail">
+            </figure>
+            <figure class="craft-detail" data-caption="Tailoring · internal structure and finish">
+                <img src="https://images.unsplash.com/photo-1542060748-10c28b62716d?w=1100&q=80" alt="Tailoring detail">
+            </figure>
+        </div>
+    </section>
+
+    <!-- Shared Footer -->
+    <div data-include="footer"></div>
+
+    <!-- Craft Detail Modal -->
+    <div class="craft-modal" aria-hidden="true">
+        <div class="craft-modal-backdrop"></div>
+        <div class="craft-modal-dialog" role="dialog" aria-modal="true" aria-label="Craft detail">
+            <button class="craft-modal-close" aria-label="Close craft detail">&times;</button>
+            <div class="craft-modal-body">
+                <img class="craft-modal-image" src="" alt="">
+                <p class="craft-modal-caption"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

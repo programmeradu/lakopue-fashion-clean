@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAKOPUÉ | Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="lakopue_icon_transparent.png" type="image/png">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-logo">
+            <img src="lakopue_full_logo_cropped.png" alt="LAKOPUÉ">
+        </div>
+        <div class="loader-tagline">Beyond Elegance</div>
+        <div class="loader-line"></div>
+    </div>
+
+    <!-- Shared Navigation -->
+    <div data-include="nav"></div>
+
+    <!-- Gallery Hero -->
+    <section class="gallery-hero">
+        <div class="gallery-hero-inner">
+            <p class="section-eyebrow">Gallery</p>
+            <h1 class="gallery-hero-title">The World of LAKOPUÉ</h1>
+            <p class="gallery-hero-subtitle">
+                A curated selection of runway, campaign and atelier imagery, 
+                revealing the details and silhouettes that define the Maison.
+            </p>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section">
+        <div class="gallery-filters" aria-label="Filter gallery">
+            <button class="gallery-filter active" data-filter="all">All</button>
+            <button class="gallery-filter" data-filter="runway">Runway</button>
+            <button class="gallery-filter" data-filter="campaign">Campaigns</button>
+            <button class="gallery-filter" data-filter="details">Details</button>
+            <button class="gallery-filter" data-filter="backstage">Backstage</button>
+        </div>
+
+        <div class="gallery-grid">
+            <figure class="gallery-item" data-category="runway" data-caption="Haute Couture Spring–Summer 2026 · Editorial portrait">
+                <img src="new media/lakopue_20191107_p_2172088938471555226_1_2172088938471555226.jpg.jpeg" alt="LAKOPUÉ editorial portrait">
+            </figure>
+            <figure class="gallery-item" data-category="runway" data-caption="Haute Couture Spring–Summer 2026 · Finale moment">
+                <img src="https://images.unsplash.com/photo-1514996937319-344454492b37?w=900&q=80" alt="Runway finale">
+            </figure>
+            <figure class="gallery-item" data-category="campaign" data-caption="Keyhole campaign still · Neon light">
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=900&q=80" alt="Campaign still">
+            </figure>
+            <figure class="gallery-item" data-category="details" data-caption="Hand embroidery detail · gold thread and crystals">
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=900&q=80" alt="Embroidery detail">
+            </figure>
+            <figure class="gallery-item" data-category="details" data-caption="Sculpted keyhole jewelry in polished gold">
+                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=900&q=80" alt="Jewelry detail">
+            </figure>
+            <figure class="gallery-item" data-category="backstage" data-caption="Backstage fitting · silhouette check before the runway">
+                <img src="https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?w=900&q=80" alt="Backstage fitting">
+            </figure>
+        </div>
+    </section>
+
+    <!-- Shared Footer -->
+    <div data-include="footer"></div>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" aria-hidden="true">
+        <div class="gallery-modal-backdrop"></div>
+        <div class="gallery-modal-dialog" role="dialog" aria-modal="true" aria-label="Gallery image">
+            <button class="gallery-modal-close" aria-label="Close gallery image">&times;</button>
+            <div class="gallery-modal-body">
+                <img class="gallery-modal-image" src="" alt="">
+                <p class="gallery-modal-caption"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
