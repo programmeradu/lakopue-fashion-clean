@@ -1,0 +1,7 @@
+name = "lakopue-fashion-clean"
+# If using Cloudflare Pages or Workers Sites, we specify the assets to include/exclude.
+# This config ensures .git and other bulky metadata is never uploaded.
+
+[site]
+bucket = "."
+exclude = [".git", ".git/**/*", ".github", "node_modules", ".wranglerignore", "wrangler.toml", "task.md", "implementation_plan.md", "walkthrough.md"]
