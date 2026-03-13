@@ -1,0 +1,63 @@
+{
+  "currency": "USD",
+  "products": [
+    {
+      "id": "hc-keyhole-gown-ss26",
+      "name": "Keyhole Column Gown",
+      "category": "Haute Couture",
+      "price": 24000,
+      "shortDescription": "Sculpted neckline with the Maison’s signature keyhole code.",
+      "description": "A couture column gown defined by architectural restraint and luminous hand-finishing. The keyhole motif is framed as negative space, balancing structure and air. Made-to-order in the Maison ateliers.",
+      "images": [
+        "https://images.unsplash.com/photo-1514996937319-344454492b37?w=1400&q=80",
+        "https://images.unsplash.com/photo-1519741497674-611481863552?w=1400&q=80"
+      ]
+    },
+    {
+      "id": "rtw-tailored-coat-fw25",
+      "name": "Tailored Coat",
+      "category": "Ready-to-Wear",
+      "price": 1900,
+      "shortDescription": "Sharp tailoring with a refined, minimalist finish.",
+      "description": "A modern coat cut with precision and quiet presence. Clean lines, structured shoulder, and a soft interior finish designed for city movement.",
+      "images": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1400&q=80",
+        "https://images.unsplash.com/photo-1520975958225-4310cd38d5c2?w=1400&q=80"
+      ]
+    },
+    {
+      "id": "jewelry-keyhole-pendant",
+      "name": "Keyhole Pendant",
+      "category": "Jewelry",
+      "price": 680,
+      "shortDescription": "Polished metalwork pendant inspired by couture codes.",
+      "description": "A sculpted pendant with a modern keyhole silhouette. Designed to sit close to the collarbone with subtle shine and weight.",
+      "images": [
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1400&q=80"
+      ]
+    },
+    {
+      "id": "acc-sculpted-belt",
+      "name": "Sculpted Belt",
+      "category": "Accessories",
+      "price": 420,
+      "shortDescription": "A sculptural accent to frame the silhouette.",
+      "description": "A minimalist belt designed as an object: refined hardware, balanced proportions, and a couture-inspired presence.",
+      "images": [
+        "https://images.unsplash.com/photo-1543076447-215ad9ba6923?w=1400&q=80"
+      ]
+    },
+    {
+      "id": "shoes-architect-heel",
+      "name": "Architect Heel",
+      "category": "Shoes",
+      "price": 860,
+      "shortDescription": "Clean lines with an architectural stance.",
+      "description": "A sharp heel that grounds the look. A sculpted profile and confident balance designed for evening presence.",
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55ddf?w=1400&q=80"
+      ]
+    }
+  ]
+}
+
